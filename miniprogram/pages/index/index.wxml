@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="sousuokuang">
+  <view class="sousuo">
+    <view class="shurukuang">
+    	<input type="text"  placeholder="  搜索景点" value="" bindtap="gotoPage" ></input>
+    </view>
+	  <view  class="sousuo_anniu" bindtap="ToSearch" bindtap="gotoPage">
+      <icon type="search" size="20"></icon>
+      </view>
+	</view>
+</view>
+		<!-- 内容 -->
+<view  class="all" >
+<view wx:for="{{dataList}}"  catchtap="skipTravelDetails" wx:key="index"  class="text"  data-id='{{item._id}}' data-idx='{{index}}'  bandtap="clickRow">
+
+	<image class="picture1" src="{{item.fileID}}"/>
+<view>{{currentIndex}}</view>
+ <view class="title" url="/pages/info/info">{{item.title}}</view> 
+  <view class="user " >
+  <image class="head1" src="{{item.avatarUrl}}"/>
+  <view class="username">{{item.nickName}}</view>
+  <view class="position" >
+  <image class="site1" src="/images/dingwei.png"></image>
+  <view class="site2">{{item.site}}</view>
+</view>
+</view>
+
+</view>
+
+</view>
+
+</view>

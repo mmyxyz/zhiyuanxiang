@@ -1,0 +1,29 @@
+<!--pages/made/made.wxml-->
+
+<form bindsubmit="btnSub" >
+    <view class="view-contain-ti">
+    <text class="text-ti">标题</text>
+<input name="title" class="flex1"  bindinput="inputInfo" data-obj="info" data-item="title" value="{{info.title}}"></input>
+</view>
+<view class="view-contain-ti1 ">
+    <text class="text-ti">内容</text>
+<textarea name="content" class="flex1 "  bindinput="inputInfo" data-obj="info" data-item="content" value="{{info.content}}"></textarea>
+</view>
+
+<view class="view-contain-ti">
+    <text class="text-ti">位置</text>
+<input  name="site" class="flex1 "    bindinput="inputInfo" data-obj="info" data-item="site" value="{{info.site}}"></input>
+</view>
+<view class="view-contain-ti">
+    <text class="text-ti">类别</text>
+<input  name="type" class="flex1"   bindinput="inputInfo" data-obj="info" data-item="type" value="{{info.type}}"></input>
+</view>
+
+<button bindtap="clickBtn" class="btnimg"  placeholder="请选择图片"  >照片/视频</button>
+<image wx:for="{{arr}}" wx:key="index" name="fileID" src="{{item}}" ></image>
+
+<view name="createTime">{{createTime}}</view>
+ <view   name="avatarUrl" >{{avatarUrl}}</view>
+ <view name="nickName"  >{{nickName}}</view>
+<button class="btn"  bindtap="showToast" >release</button>
+</form>

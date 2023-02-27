@@ -1,0 +1,125 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  .userinfo{
+    margin-top: 20px;
+  }
+  .my{
+      width: 97%;
+      height: 110px;
+      background-color: rgba(243, 237, 237, 0.918);
+  }
+  .top{
+    text-align: center;
+    display: flex;
+   }
+   .user{
+     margin-left: 20px;
+   }
+   .fabu{
+     width: 20px;
+     height: 20px;
+   }
+.userinfo-avatar{
+  margin-top: 10px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+  }
+
+  .userinfo-nickname{
+   text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 17px;
+
+  }
+  .information{
+
+    margin-top:8px ;
+    margin-left: 15px;
+      font-size: 11px;
+  }
+  .center{
+      margin-top: 10px;
+      display: flex;
+      background-color: white;
+  }
+  .center-item{
+ font-size: 14px;
+     margin-right: 20px;
+     margin-left: 20px;
+     text-align: center;
+  }
+  .icon1{
+      width: 40px;
+      height: 40px;
+  }
+
+  
+.text{
+    background-color: rgba(253, 253, 253, 0.699);
+    width: 97%;
+    height: 120px;
+    margin-bottom:8px;
+  }
+  .head1{
+    width: 17px;
+    height: 17px;
+    border-radius:50px;
+    margin-top: 3px;
+  }
+  .user{
+    font-size: 12px;
+    color: dimgray;
+    display: flex;
+  }
+  .information{
+    margin-top: 14px;
+  }
+    .title{
+    
+      font-size: 13px;
+    }
+  .username{
+    margin-top: 3px;
+    margin-left: 3px;
+    float: right;
+  }
+  .position{
+    display: flex;
+    margin-top: 6px;
+  }
+  .site1{
+    margin-top:2px ;
+    width: 15px;
+    height: 15px;
+  }
+  .site2{
+    font-size: 12px;
+  }
+  .picture1{
+    margin-top: 15px;
+    margin-right: 6px;
+    float: left;
+    height: 90px;
+    width: 150px;
+  }
+  .qiandao{
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 10px;
+    display: flex;
+  }
+  .out{
+    margin-top: 50px;
+    background-color: aqua;
+  }
+  .jiahao{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }

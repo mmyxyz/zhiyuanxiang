@@ -1,0 +1,57 @@
+<view class="container">
+  <!-- 2.授权  -->
+  <!-- <view>授权登录</view>
+  <view class='content'>
+  <button wx:if='{{isShow}}' open-type="getUserInfo"  bindgetuserinfo='getUserInfo'>点击授权</button>
+  <view class='userinfo' wx:else>
+    <view class='img'> <image src='{{avatarUrl}}'></image></view>
+    <view class= 'name'>{{nickName}}</view>
+  </view> 
+   </view> -->
+  <!-- 2.授权登录  -->
+  <view class="my">
+  <view class="userinfo">
+    <view wx:if="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 登录 </button>
+    </view>
+    <view>
+    <view class="top">
+    <view class="user">
+      <image bindtap="bindViewTap"   class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="userinfo-nickname" >{{userInfo.nickName}}</view>
+    </view>
+   
+      <view class="" >
+      <image class="qiandao" src="../../images/qiandao.png" catchtap="clickRow"></image>
+        </view>
+    </view>
+  
+</view>
+  </view>
+</view>
+
+<button wx:if="{{userInfo!=null}}" bindtap="loginOut" class="out">退出登录 </button>
+<view class="" >
+    <image class="jiahao"  catchtap="click" src="/images/jiahao.png"></image>
+  </view>
+</view>
+
+
+<view wx:for="{{dataObj}}"  wx:key="index"  class="text">
+	<image class="picture1" src="{{item.picturePath}}"/>
+<view class="information">
+<view>{{currentIndex}}</view>
+ <view class="title" url="/pages/info/info">{{item.title}}</view> 
+  <view class="user">
+  <image class="head1" src="{{item.imagesPath}}"/>
+  <view class="username">{{item.username}}</view>
+  </view>
+</view>
+<view class="position">
+<image class="site1" src="/images/dingwei.png"/>
+<view class="site2">{{item.site}}</view>
+</view>
+
+</view>
+
+

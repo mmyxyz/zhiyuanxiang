@@ -1,0 +1,21 @@
+
+<view   class="text"  >
+    <image class="img" src="{{dataList.fileID}}"></image>
+    <view class="info">
+    <view class="title">{{dataList.title}}</view>
+    <view class="content">{{dataList.content}}</view>
+   </view>
+    <view class="user " >
+    <view class="user1">
+  <image class="head1" src="{{dataList.avatarUrl}}"/>
+  <view class="username">{{dataList.nickName}}</view>
+</view>
+  <view class="position" >
+  <image class="site1" src="/images/dingwei.png"></image>
+  <view class="site2">{{dataList.site}}</view>
+</view>
+</view>
+  
+   
+</view>
+

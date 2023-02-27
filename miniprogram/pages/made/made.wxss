@@ -1,0 +1,47 @@
+/* pages/made/made.wxss */
+ btnimg{
+     width: 100px;
+     height: 100px;
+ }
+ .btn {
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    margin: 30px 30px;
+    border-radius: 10rpx;
+    color: #fff;
+    background-color: #8cc0f3;
+}
+.view-contain-ti {
+    display: flex;
+    height: 40px;
+    margin:30px;
+    border: 3rpx solid #faca82;
+    border-radius: 10rpx;
+  }
+  .view-contain-ti1 {
+    display: flex;
+    height: 100px;
+    margin: 30px;
+    border: 3rpx solid #faca82;
+    border-radius: 10rpx;
+  }
+  .text-ti {
+    position: absolute;
+    font-size: 12px;
+    background: white;
+    margin: -10px 0 0 10px;
+    padding: 0 5px;
+    color: rgb(144, 147, 167);
+  }
+  .flex1 {
+    margin:  10px 10px;
+  }
+  .btnimg{
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    margin: 30px 30px;
+    border-radius: 10rpx;
+  }
+  

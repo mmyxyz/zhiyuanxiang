@@ -1,0 +1,8 @@
+<!--pages/result/result.wxml-->
+<view>
+    <image src="{{dataList.fileID}}"></image>
+    <view class="title">{{dataList.title}}</view>
+    <view class="content">{{dataList.content}}</view>
+    <view class="nickName">{{dataList.nickName}}</view>
+    <view class="vatarUrl"  src="{{dataList.avatarUrl}}"></view>
+</view>

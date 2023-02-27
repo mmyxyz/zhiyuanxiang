@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/my",
+        "pages/news/news",
+        "pages/study/study",
+        "pages/follow/follow",
+        "pages/info/info",
+        "pages/made/made",
+        "pages/result/result",
+        "pages/search/search",
+        "pages/sign/sign"
+        
+
+    ],
+    "window": {
+   
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "游一游",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+        
+    },
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "list": [
+          {
+            "selectedIconPath": "images/shouye.png",
+            "iconPath": "images/shouye.png",
+            "pagePath": "pages/index/index",
+            "text": "首页"
+          },
+       
+       
+          {
+            "selectedIconPath": "images/wode.png",
+            "iconPath": "images/wode.png",
+            "pagePath": "pages/my/my",
+            "text": "我的"
+          }
+         
+        ]
+      }
+}

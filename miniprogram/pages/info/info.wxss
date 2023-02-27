@@ -1,0 +1,58 @@
+.img{
+    width: 100%;
+}
+   .title{
+       margin-top: 10px;
+    font-size: 20px;
+    text-overflow:ellipsis
+  }
+.content{
+    margin-top: 10px;
+font-size:15px ;
+}
+
+  .info{
+      text-align: center;
+  }
+.user{
+    font-size: 15px;
+    color: dimgray;
+
+  }
+.user1{
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+  .head1{
+    width: 40px;
+    height: 40px;
+    border-radius:50px;
+   
+  }
+  .username{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 7px;
+  }
+  .position{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+  }
+  .site1{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+  }
+  .site2{
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  
+  .information{
+    margin-top: 14px;
+  }
+ 
